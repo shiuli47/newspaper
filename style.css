@@ -78,9 +78,24 @@ nav ul li {
     float: left;
 }
 nav ul li a {
-    color: blue;
+    color: white;
     display: block;
     padding: 10px 30px;
+}
+nav ul li a:hover {
+    background-color: black;
+}
+/* for breaking news */
+.breaking-news {
+    padding: 10px;
+    background-color: indigo;
+    color: ivory;
+}
+.breaking-news .update-left {
+    padding: 5px 0px;
+    text-align: center;
+    background-color: deeppink;
+
 }
 
   
